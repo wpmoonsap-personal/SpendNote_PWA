@@ -1,0 +1,97 @@
+SpendNote Internal Use and Restricted Commercialization License
+
+Copyright (c) 2026 maqmoq. All rights reserved.
+
+This software is proprietary and source-available only under the limited terms
+below. This is not an open-source license. All rights not expressly granted are
+reserved by the copyright owner.
+
+Permitted use:
+You may use this software free of charge for personal use, educational use, and
+internal use in your own business, freelance work, or organization, provided that
+you are not selling, licensing, hosting, redistributing, or providing SpendNote
+itself as a product or service.
+
+Modification:
+You may study and modify this software only for your own permitted internal use.
+Modifying the software does not grant permission to sell, resell, rent,
+sublicense, redistribute, publish paid copies, host, provide as a service, or
+otherwise commercialize the original or modified software.
+
+Prohibited use:
+Without prior written permission from the copyright owner, you may not:
+- sell, resell, rent, lease, sublicense, or publish paid copies of the software;
+- redistribute the software or modified versions for profit;
+- include the software, source code, modified versions, compiled builds, design,
+  icons, logo, SpendNote name, or project assets in a paid product, app, website,
+  package, client deliverable, SaaS offering, or commercial service;
+- use the software to provide paid implementation, hosting, managed-service,
+  white-label, template, or resale services;
+- remove or obscure copyright, license, attribution, or ownership notices.
+
+No other rights:
+No trademark, branding, patent, distribution, resale, sublicensing, or commercial
+rights are granted except by separate written permission from the copyright
+owner.
+
+User responsibility:
+You are responsible for reviewing and verifying all data, amounts, categories,
+exchange rates, calculations, reports, PDF/CSV exports, receipt OCR output,
+portfolio values, backups, and any decisions made from using the software.
+You are also responsible for data you enter, edit, delete, export, share, back
+up, or upload to any cloud account, app, or destination you choose, including
+mistakes caused by incorrect entries, wrong files, wrong destinations, or
+misconfigured backup/cloud settings.
+SpendNote does not control third-party cloud services, share targets,
+destination files, or external accounts you choose. To the maximum extent
+permitted by law, the copyright owner is not liable for data that is lost,
+accessed, leaked, modified, or deleted from those services, accounts, apps, or
+destinations.
+
+Disclaimer and limitation of liability:
+The software is provided "as is" and "as available". To the maximum extent
+permitted by law, the copyright owner makes no warranties, express or implied,
+including warranties of accuracy, completeness, merchantability, fitness for a
+particular purpose, non-infringement, availability, continuity, or data
+preservation.
+
+To the maximum extent permitted by law, the copyright owner is not liable for
+any direct, indirect, incidental, consequential, special, exemplary, punitive, or
+other damages or losses arising from or related to the software, including but
+not limited to incorrect data, lost data, failed backups, app deletion, device
+reset, browser storage changes, cloud-service issues, device issues, OCR errors,
+exchange-rate errors, report/export errors, business interruption, lost revenue,
+lost profits, or decisions made from using or being unable to use the software.
+
+Thai summary:
+ซอฟต์แวร์นี้เป็นซอฟต์แวร์ที่มีเจ้าของลิขสิทธิ์ และอนุญาตให้ใช้ได้ฟรีเฉพาะการ
+ใช้งานส่วนตัว การศึกษา และการใช้งานภายในธุรกิจของตัวเอง เช่น ใช้จดรายรับรายจ่าย
+ของร้านส่วนตัว งานฟรีแลนซ์ หรือองค์กรของตัวเอง โดยไม่ได้ขายหรือให้บริการตัว
+ซอฟต์แวร์ SpendNote
+
+ห้ามขาย ขายต่อ ให้เช่า อนุญาตช่วง แจกจ่ายเพื่อแสวงหากำไร ทำไฟล์ติดตั้งแบบเสีย
+เงิน นำไปใส่ในสินค้า แอพ เว็บไซต์ แพ็กเกจ งานส่งมอบลูกค้า บริการ SaaS บริการ
+รับจ้าง white-label template หรือบริการเชิงพาณิชย์ใดๆ รวมถึงห้ามนำซอร์สโค้ด
+เวอร์ชันดัดแปลง ดีไซน์ ไอคอน โลโก้ ชื่อ SpendNote ไฟล์ติดตั้ง หรือ asset ของ
+โปรเจกต์ไปใช้เพื่อขายต่อหรือแสวงหากำไร โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจาก
+เจ้าของลิขสิทธิ์ก่อน
+
+สิทธิ์ทั้งหมดที่ไม่ได้ระบุให้ไว้อย่างชัดเจนถือว่าสงวนไว้ทั้งหมด
+
+ผู้ใช้ต้องตรวจสอบข้อมูล จำนวนเงิน หมวดหมู่ อัตราแลกเปลี่ยน ผลคำนวณ รายงาน
+ไฟล์ PDF/CSV ข้อมูล OCR จากใบเสร็จ มูลค่าพอร์ต การสำรองข้อมูล และการตัดสินใจ
+ใดๆ จากการใช้ซอฟต์แวร์ด้วยตัวเอง
+ผู้ใช้เป็นผู้รับผิดชอบข้อมูลที่กรอก แก้ไข ลบ ส่งออก แชร์ สำรองข้อมูล หรืออัปโหลด
+ไปยัง cloud/แอพ/ปลายทางที่เลือกเอง รวมถึงความผิดพลาดจากการกรอกข้อมูลผิด เลือก
+ไฟล์ผิด ส่งไฟล์ผิดที่ หรือตั้งค่า backup/cloud ไม่ถูกต้อง
+SpendNote ไม่ได้ควบคุมบริการ cloud แอพแชร์ ไฟล์ปลายทาง หรือบัญชีภายนอกที่ผู้ใช้
+เลือกเอง เท่าที่กฎหมายอนุญาต เจ้าของลิขสิทธิ์ไม่รับผิดชอบต่อข้อมูลที่สูญหาย ถูก
+เข้าถึง รั่วไหล ถูกแก้ไข หรือถูกลบจากบริการ/บัญชี/ปลายทางเหล่านั้น
+
+ซอฟต์แวร์ให้ใช้งานตามสภาพจริง เท่าที่กฎหมายอนุญาต เจ้าของลิขสิทธิ์ไม่รับประกัน
+ความถูกต้อง ความครบถ้วน ความพร้อมใช้งาน ความต่อเนื่อง ความเหมาะสมกับวัตถุ
+ประสงค์เฉพาะ หรือการคงอยู่ของข้อมูล และไม่รับผิดชอบต่อความเสียหาย ข้อมูลผิดพลาด
+ข้อมูลสูญหาย backup ไม่สำเร็จ การลบแอพ การล้างข้อมูลเครื่อง ปัญหา browser/cloud/
+device ความผิดพลาดจาก OCR/อัตราแลกเปลี่ยน/รายงาน/การส่งออก การหยุดชะงักของงาน
+รายได้หรือกำไรที่สูญเสีย หรือการตัดสินใจใดๆ ที่เกิดจากการใช้หรือไม่สามารถใช้
+ซอฟต์แวร์ เท่าที่กฎหมายอนุญาต
