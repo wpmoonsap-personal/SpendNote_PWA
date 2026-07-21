@@ -1,4 +1,4 @@
-const CACHE_NAME = "spendnote-pwa-f5da02d39fea";
+const CACHE_NAME = "spendnote-pwa-fa9a4d299f49";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -12,6 +12,12 @@ const APP_SHELL = [
   "./icon-1024.png",
   "./spendnote-logo.png",
   "./spendnote-logo.svg",
+  "./fonts/prompt-300.ttf",
+  "./fonts/prompt-400.ttf",
+  "./fonts/prompt-500.ttf",
+  "./fonts/prompt-600.ttf",
+  "./fonts/prompt-700.ttf",
+  "./fonts/OFL-Prompt.txt",
   "./vendor/tesseract/tesseract.min.js",
   "./vendor/tesseract/worker.min.js",
   "./vendor/tesseract/core/tesseract-core-lstm.js",
