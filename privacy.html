@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08a9bc">
+<title>SpendNote — นโยบายความเป็นส่วนตัว / Privacy Policy</title>
+<style>
+  :root{
+    --accent:#08a9bc; --accent-dark:#067d8b; --ink:#16292c; --muted:#5c6f72;
+    --line:#e0edee; --bg:#ffffff; --panel:#f5fbfc; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Thai","Helvetica Neue",Arial,sans-serif;
+    line-height:1.72; font-size:16.5px;
+  }
+  .bar{
+    position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92);
+    backdrop-filter:saturate(1.2) blur(8px); border-bottom:1px solid var(--line);
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px clamp(16px,5vw,24px);
+  }
+  .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px}
+  .brand .dot{width:26px; height:26px; border-radius:8px; background:var(--accent);
+    display:grid; place-items:center; color:#fff; font-size:13px; font-weight:800}
+  .toggle{display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden}
+  .toggle button{
+    appearance:none; border:0; background:transparent; color:var(--muted);
+    padding:7px 14px; font-size:13.5px; font-weight:700; cursor:pointer;
+  }
+  .toggle button[aria-pressed="true"]{background:var(--accent); color:#fff}
+  .toggle button:focus-visible{outline:2px solid var(--accent-dark); outline-offset:2px}
+  main{max-width:720px; margin:0 auto; padding:clamp(24px,6vw,48px) clamp(16px,5vw,24px) 96px}
+  .eyebrow{font-size:12.5px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-dark)}
+  h1{font-size:clamp(26px,6vw,34px); line-height:1.2; margin:.35em 0 .15em; letter-spacing:-.01em}
+  .meta{color:var(--muted); font-size:14px; margin:0 0 28px; padding-bottom:20px; border-bottom:1px solid var(--line)}
+  .meta b{color:var(--ink)}
+  h2{font-size:19px; margin:34px 0 8px; padding-left:14px; position:relative; letter-spacing:-.005em}
+  h2::before{content:""; position:absolute; left:0; top:.18em; bottom:.18em; width:4px; border-radius:3px; background:var(--accent)}
+  p{margin:.5em 0}
+  ul{margin:.5em 0; padding-left:1.25em}
+  li{margin:.35em 0}
+  .callout{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px; margin:16px 0}
+  .callout p{margin:.25em 0}
+  strong{color:var(--ink)}
+  a{color:var(--accent-dark)}
+  footer{max-width:720px; margin:0 auto; padding:0 clamp(16px,5vw,24px) 60px; color:var(--muted); font-size:13.5px}
+  [data-lang]{display:none}
+  body.lang-th [data-lang="th"]{display:block}
+  body.lang-en [data-lang="en"]{display:block}
+  @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body class="lang-th">
+  <div class="bar">
+    <div class="brand"><span class="dot">SN</span> SpendNote</div>
+    <div class="toggle" role="group" aria-label="Language">
+      <button id="btn-th" aria-pressed="true" onclick="setLang('th')">TH</button>
+      <button id="btn-en" aria-pressed="false" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ THAI ============ -->
+    <div data-lang="th">
+      <div class="eyebrow">SpendNote</div>
+      <h1>นโยบายความเป็นส่วนตัว</h1>
+      <p class="meta">ปรับปรุงล่าสุด: <b>22 กรกฎาคม 2026</b> · ผู้พัฒนา: <b>Watcharaporn Moonsap (maqmoq)</b> · ติดต่อ: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a></p>
+
+      <p>SpendNote (“แอพ”) พัฒนาโดย Watcharaporn Moonsap (maqmoq) แอพออกแบบให้เก็บข้อมูลการเงินของคุณไว้ในเครื่องของคุณเป็นหลัก</p>
+
+      <h2>ข้อมูลที่แอพเก็บ</h2>
+      <p>แอพเก็บเฉพาะข้อมูลที่ <strong>คุณกรอกหรือเพิ่มเข้ามาเอง</strong>: รายรับ-รายจ่าย เงินออม การลงทุน/พอร์ต หมวดหมู่ งบประมาณ รายการเตือน ชื่อที่แสดง และการตั้งค่า</p>
+      <ul>
+        <li>แอพ <strong>ไม่</strong> อ่าน SMS ไม่อ่านการแจ้งเตือนจากธนาคาร และ <strong>ไม่</strong> ดึงข้อมูลจากแอพอื่นโดยอัตโนมัติ</li>
+        <li>แอพ <strong>ไม่มี</strong> บัญชีออนไลน์ ชื่อผู้ใช้แสดงในเครื่องนี้เท่านั้น</li>
+        <li>เราไม่มีเซิร์ฟเวอร์ที่รวบรวม ดู หรือวิเคราะห์ข้อมูลการเงินของคุณ</li>
+      </ul>
+
+      <h2>การสแกนใบเสร็จ (OCR)</h2>
+      <p>การสแกนใบเสร็จใช้เครื่องมือ OCR (Tesseract) ที่ <strong>ฝังอยู่ในแอพและทำงานในเครื่อง (offline)</strong> รูปใบเสร็จและข้อความที่อ่านได้ถูกประมวลผลและเก็บไว้ในเครื่องนี้เท่านั้น <strong>ไม่มีการอัปโหลดรูปหรือข้อความออกไปยังเซิร์ฟเวอร์ใดๆ</strong></p>
+
+      <h2>การปลดล็อกด้วยชีวมิติ (Biometric)</h2>
+      <p>ไม่ว่ากรณีใด <strong>ตัวแอพไม่เห็นและไม่จัดเก็บข้อมูลใบหน้า/ลายนิ้วมือของคุณ</strong> ระบบยืนยันจะส่งกลับมาเพียง “ผลการยืนยัน” เท่านั้น</p>
+      <ul>
+        <li><strong>บนแอพ Android:</strong> ใช้ระบบสแกนชีวมิติของเครื่องโดยตรง ข้อมูลชีวมิติอยู่ในเครื่องภายใต้ระบบปฏิบัติการ</li>
+        <li><strong>บนเว็บ/PWA (เช่น iPhone):</strong> ใช้ Passkey (WebAuthn) ที่ผู้ใช้สร้างและเก็บไว้ในบัญชี Apple/Google ของคุณเอง (เช่น iCloud Keychain หรือ Google Password Manager) การใช้งานอาจต้องเชื่อมต่ออินเทอร์เน็ต และอยู่ภายใต้นโยบายของ Apple/Google การจัดการ Passkey อยู่นอกเหนือการควบคุมของแอพ</li>
+      </ul>
+
+      <h2>รหัสเข้าแอพ (PIN)</h2>
+      <p>เก็บไว้ในเครื่องเพื่อล็อก/ปลดล็อกแอพเท่านั้น</p>
+
+      <h2>บริการภายนอกที่แอพเรียกใช้</h2>
+      <ul>
+        <li><strong>อัตราแลกเปลี่ยน:</strong> เมื่อคุณกด “ดึงอัตรา” แอพจะเชื่อมต่ออินเทอร์เน็ตเพื่อขออัตราจาก <strong>Frankfurter</strong> (ข้อมูลอ้างอิงจากธนาคารกลางยุโรป/ECB) การเรียกนี้ส่งเพียงคำขออัตราแลกเปลี่ยน ไม่ส่งข้อมูลการเงินส่วนตัวของคุณ</li>
+        <li><strong>การสำรองข้อมูลบนคลาวด์ (iCloud Drive / Google Drive):</strong> เป็นทางเลือก ทำงานเมื่อคุณเชื่อมต่อและกดสำรองเอง ไฟล์สำรองเก็บอยู่ในคลาวด์ของบัญชีคุณเอง ภายใต้นโยบายของ Apple/Google เราไม่มีสิทธิ์เข้าถึงคลาวด์ของคุณ</li>
+      </ul>
+
+      <h2>การแบ่งปันข้อมูล</h2>
+      <p>เราไม่ขาย ไม่ให้เช่า ไม่แบ่งปันข้อมูลของคุณกับบุคคลที่สามเพื่อการโฆษณา แอพไม่มีโฆษณาและไม่มีเครื่องมือติดตามพฤติกรรม (tracking)</p>
+
+      <h2>สิทธิ์ของคุณ</h2>
+      <p>คุณลบข้อมูลทั้งหมดได้ตลอดเวลาผ่านเมนู “ลบข้อมูลทั้งหมด” ในหน้าตั้งค่า เมื่อลบแล้วข้อมูลในเครื่องนี้จะหายถาวร (ไฟล์สำรองบนคลาวด์ที่คุณสร้างไว้เอง ต้องลบเองแยกต่างหาก)</p>
+
+      <h2>ผู้ใช้ต่างประเทศ</h2>
+      <p>แม้เราจะไม่ได้เก็บข้อมูลของคุณไว้ที่เซิร์ฟเวอร์ใดๆ หากคุณใช้งานจากนอกประเทศไทย คุณอาจมีสิทธิ์เพิ่มเติมภายใต้กฎหมายคุ้มครองข้อมูลของประเทศคุณ (เช่น UK/EU GDPR) เนื่องจากข้อมูลอยู่ในเครื่องของคุณเอง คุณจึงเป็นผู้ควบคุมข้อมูลนั้นโดยตรง</p>
+
+      <h2>เด็กและเยาวชน</h2>
+      <p>แอพไม่ได้มุ่งเป้าไปที่เด็กอายุต่ำกว่า 13 ปี และไม่เก็บข้อมูลจากเด็กโดยเจตนา</p>
+
+      <h2>คำแปลหลายภาษา</h2>
+      <div class="callout">
+        <p>คำแปลของแอพและเอกสารนี้ในภาษาอื่น (รวม 13 ภาษา) จัดทำโดยระบบแปลอัตโนมัติ (AI) เพื่ออำนวยความสะดวก อาจมีความคลาดเคลื่อน หากมีข้อความขัดแย้งกัน ให้ยึด <strong>ฉบับภาษาไทย</strong> เป็นฉบับอ้างอิงหลัก</p>
+      </div>
+
+      <h2>การเปลี่ยนแปลงและการติดต่อ</h2>
+      <p>เราอาจปรับปรุงนโยบายเป็นครั้งคราว โดยระบุวันที่ไว้ด้านบน · ติดต่อ: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a></p>
+    </div>
+
+    <!-- ============ ENGLISH ============ -->
+    <div data-lang="en">
+      <div class="eyebrow">SpendNote</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: <b>22 July 2026</b> · Developer: <b>Watcharaporn Moonsap (maqmoq)</b> · Contact: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a></p>
+
+      <p>SpendNote (“the App”) is developed by Watcharaporn Moonsap (maqmoq). The App is designed to keep your financial data primarily on your own device.</p>
+
+      <h2>Data we store</h2>
+      <p>Only what <strong>you enter yourself</strong>: income/expense entries, savings, investments/portfolio, categories, budgets, reminders, display name, and settings.</p>
+      <ul>
+        <li>The App does <strong>not</strong> read SMS, does <strong>not</strong> read bank notifications, and does <strong>not</strong> auto-pull data from other apps.</li>
+        <li>There is <strong>no</strong> online account; your name shows on this device only.</li>
+        <li>We run no server that collects, views, or analyses your financial data.</li>
+      </ul>
+
+      <h2>Receipt scanning (OCR)</h2>
+      <p>Receipt scanning uses an OCR engine (Tesseract) <strong>embedded in the App and running on-device (offline)</strong>. Receipt images and recognised text are processed and kept on this device only; <strong>nothing is uploaded to any server</strong>.</p>
+
+      <h2>Biometric unlock</h2>
+      <p>In all cases, <strong>the App never sees or stores your face/fingerprint data</strong>; the system returns only a verification result.</p>
+      <ul>
+        <li><strong>Android app:</strong> uses the device's native biometric system; biometric data stays on-device under the OS.</li>
+        <li><strong>Web/PWA (e.g. iPhone):</strong> uses a Passkey (WebAuthn) that you create and store in your own Apple/Google account (e.g. iCloud Keychain or Google Password Manager). This may require internet and is governed by Apple/Google; passkey management is outside the App's control.</li>
+      </ul>
+
+      <h2>App passcode (PIN)</h2>
+      <p>Stored on device solely to lock/unlock the App.</p>
+
+      <h2>External services</h2>
+      <ul>
+        <li><strong>Exchange rates:</strong> Tapping “Get rate” connects to the internet to fetch rates from <strong>Frankfurter</strong> (data sourced from the European Central Bank). The request sends only a rate query — not your personal financial data.</li>
+        <li><strong>Cloud backup (iCloud Drive / Google Drive):</strong> Optional; runs only when you connect and back up manually. Backups are stored in your own cloud account under Apple's/Google's policies. We cannot access your cloud.</li>
+      </ul>
+
+      <h2>Data sharing</h2>
+      <p>We do not sell, rent, or share your data with third parties for advertising. No ads, no behavioural tracking.</p>
+
+      <h2>Your rights</h2>
+      <p>Delete all data anytime via “Delete all data” in Settings (permanent on this device). Cloud backups you created must be deleted separately by you.</p>
+
+      <h2>International users</h2>
+      <p>Although we store none of your data on any server, if you use the App from outside Thailand you may have additional rights under your local data-protection laws (e.g. UK/EU GDPR). As your data lives on your own device, you directly control it.</p>
+
+      <h2>Children</h2>
+      <p>Not directed at children under 13; we do not knowingly collect data from children.</p>
+
+      <h2>Multi-language translations</h2>
+      <div class="callout">
+        <p>Translations of the App and this document (13 languages) are machine-generated (AI) for convenience and may contain inaccuracies. In case of conflict, the <strong>Thai version prevails</strong>.</p>
+      </div>
+
+      <h2>Changes and contact</h2>
+      <p>We may update this policy; the date above reflects changes. Contact: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>© 2026 Watcharaporn Moonsap (maqmoq) · SpendNote</footer>
+
+<script>
+  function setLang(l){
+    document.body.className = 'lang-' + l;
+    document.documentElement.lang = l;
+    document.getElementById('btn-th').setAttribute('aria-pressed', l==='th');
+    document.getElementById('btn-en').setAttribute('aria-pressed', l==='en');
+  }
+</script>
+</body>
+</html>

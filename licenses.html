@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08a9bc">
+<title>SpendNote — ใบอนุญาตโอเพนซอร์ส / Open Source Licenses</title>
+<style>
+  :root{
+    --accent:#08a9bc; --accent-dark:#067d8b; --ink:#16292c; --muted:#5c6f72;
+    --line:#e0edee; --bg:#ffffff; --panel:#f5fbfc; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Thai","Helvetica Neue",Arial,sans-serif;
+    line-height:1.72; font-size:16.5px}
+  .bar{position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92);
+    backdrop-filter:saturate(1.2) blur(8px); border-bottom:1px solid var(--line);
+    display:flex; align-items:center; justify-content:space-between; padding:12px clamp(16px,5vw,24px)}
+  .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px}
+  .brand .dot{width:26px; height:26px; border-radius:8px; background:var(--accent);
+    display:grid; place-items:center; color:#fff; font-size:13px; font-weight:800}
+  .toggle{display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden}
+  .toggle button{appearance:none; border:0; background:transparent; color:var(--muted);
+    padding:7px 14px; font-size:13.5px; font-weight:700; cursor:pointer}
+  .toggle button[aria-pressed="true"]{background:var(--accent); color:#fff}
+  .toggle button:focus-visible{outline:2px solid var(--accent-dark); outline-offset:2px}
+  main{max-width:720px; margin:0 auto; padding:clamp(24px,6vw,48px) clamp(16px,5vw,24px) 96px}
+  .eyebrow{font-size:12.5px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-dark)}
+  h1{font-size:clamp(26px,6vw,34px); line-height:1.2; margin:.35em 0 .15em; letter-spacing:-.01em}
+  .meta{color:var(--muted); font-size:14px; margin:0 0 28px; padding-bottom:20px; border-bottom:1px solid var(--line)}
+  .lib{border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px; margin:14px 0; background:#fff}
+  .lib h3{margin:0 0 4px; font-size:17px}
+  .badge{display:inline-block; font-size:12px; font-weight:800; color:var(--accent-dark);
+    background:var(--panel); border:1px solid var(--line); border-radius:999px; padding:3px 10px; margin-left:6px}
+  .lib p{margin:.35em 0; color:var(--muted); font-size:14.5px}
+  .note{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px; margin:22px 0; font-size:14.5px}
+  a{color:var(--accent-dark)}
+  footer{max-width:720px; margin:0 auto; padding:0 clamp(16px,5vw,24px) 60px; color:var(--muted); font-size:13.5px}
+  [data-lang]{display:none}
+  body.lang-th [data-lang="th"]{display:block}
+  body.lang-en [data-lang="en"]{display:block}
+</style>
+</head>
+<body class="lang-th">
+  <div class="bar">
+    <div class="brand"><span class="dot">SN</span> SpendNote</div>
+    <div class="toggle" role="group" aria-label="Language">
+      <button id="btn-th" aria-pressed="true" onclick="setLang('th')">TH</button>
+      <button id="btn-en" aria-pressed="false" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- THAI -->
+    <div data-lang="th">
+      <div class="eyebrow">SpendNote</div>
+      <h1>ใบอนุญาตโอเพนซอร์ส</h1>
+      <p class="meta">© 2026 Watcharaporn Moonsap (maqmoq) · ติดต่อ: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a><br>รายการด้านล่างเป็นใบอนุญาตของไลบรารี เครื่องมือ และบริการที่ SpendNote ใช้ ไม่ใช่ใบอนุญาตของโปรเจกต์ SpendNote เอง</p>
+
+      <div class="lib">
+        <h3>Tesseract OCR / Tesseract.js <span class="badge">Apache License 2.0</span></h3>
+        <p>ใช้สำหรับอ่านข้อความจากใบเสร็จบนเครื่องและบนเว็บ/PWA</p>
+      </div>
+
+      <div class="lib">
+        <h3>Frankfurter <span class="badge">Exchange Rate API</span></h3>
+        <p>บริการอัตราแลกเปลี่ยน ข้อมูลอ้างอิงจาก European Central Bank และผู้ให้บริการอัตราแลกเปลี่ยนที่เกี่ยวข้อง คำขอส่งเฉพาะคู่สกุลเงิน ไม่ส่งข้อมูลการเงินส่วนตัว</p>
+      </div>
+
+      <div class="lib">
+        <h3>Prompt Font <span class="badge">SIL Open Font License 1.1</span></h3>
+        <p>ใช้เป็นฟอนต์หลักของแอพ</p>
+      </div>
+
+      <div class="lib">
+        <h3>AndroidX Core / AndroidX WebKit <span class="badge">Apache License 2.0</span></h3>
+        <p>ใช้สำหรับความสามารถพื้นฐานและ WebView ของแอพ Android</p>
+      </div>
+
+      <div class="lib">
+        <h3>Google ML Kit Text Recognition <span class="badge">Google ML Kit terms</span></h3>
+        <p>ใช้สำหรับอ่านข้อความจากใบเสร็จบน Android</p>
+      </div>
+
+      <div class="lib">
+        <h3>Android Gradle Plugin / Android build tools <span class="badge">Android/Google terms</span></h3>
+        <p>ใช้สำหรับ build แอพ Android</p>
+      </div>
+
+      <div class="lib">
+        <h3>esbuild <span class="badge">MIT License</span></h3>
+        <p>ใช้เป็นเครื่องมือ build/minify สำหรับเว็บและ PWA</p>
+      </div>
+
+      <div class="lib">
+        <h3>javascript-obfuscator <span class="badge">BSD-2-Clause License</span></h3>
+        <p>ใช้เป็นเครื่องมือทำให้ไฟล์ JavaScript ใน build สาธารณะแกะย้อนกลับได้ยากขึ้น</p>
+      </div>
+
+      <div class="note">
+        <strong>หมายเหตุ:</strong> หากไลบรารีใดมีไฟล์ NOTICE หรือเงื่อนไขเพิ่มเติม ให้ยึดตามประกาศของไลบรารีนั้นด้วย สำเนาใบอนุญาตของ Tesseract และ Prompt ถูกเก็บไว้ในโฟลเดอร์ vendor/fonts ของโปรเจกต์แล้ว
+      </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div data-lang="en">
+      <div class="eyebrow">SpendNote</div>
+      <h1>Open Source Licenses</h1>
+      <p class="meta">© 2026 Watcharaporn Moonsap (maqmoq) · Contact: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a><br>The licenses below belong to third-party libraries, tools, and services used by SpendNote. They are not the license of the SpendNote project itself.</p>
+
+      <div class="lib">
+        <h3>Tesseract OCR / Tesseract.js <span class="badge">Apache License 2.0</span></h3>
+        <p>Used for on-device and browser/PWA receipt text recognition.</p>
+      </div>
+
+      <div class="lib">
+        <h3>Frankfurter <span class="badge">Exchange Rate API</span></h3>
+        <p>Exchange-rate service using European Central Bank and related provider data. Requests send only currency-pair queries, not personal financial data.</p>
+      </div>
+
+      <div class="lib">
+        <h3>Prompt Font <span class="badge">SIL Open Font License 1.1</span></h3>
+        <p>Used as the app's primary font.</p>
+      </div>
+
+      <div class="lib">
+        <h3>AndroidX Core / AndroidX WebKit <span class="badge">Apache License 2.0</span></h3>
+        <p>Used for Android app and WebView functionality.</p>
+      </div>
+
+      <div class="lib">
+        <h3>Google ML Kit Text Recognition <span class="badge">Google ML Kit terms</span></h3>
+        <p>Used for Android receipt OCR.</p>
+      </div>
+
+      <div class="lib">
+        <h3>Android Gradle Plugin / Android build tools <span class="badge">Android/Google terms</span></h3>
+        <p>Used to build the Android app.</p>
+      </div>
+
+      <div class="lib">
+        <h3>esbuild <span class="badge">MIT License</span></h3>
+        <p>Used as a web/PWA build and minification tool.</p>
+      </div>
+
+      <div class="lib">
+        <h3>javascript-obfuscator <span class="badge">BSD-2-Clause License</span></h3>
+        <p>Used to make public JavaScript builds harder to reverse-engineer.</p>
+      </div>
+
+      <div class="note">
+        <strong>Note:</strong> If a component ships a NOTICE file or additional terms, those notices also apply. Copies of Tesseract and Prompt font license files are included in the project vendor/fonts folders.
+      </div>
+    </div>
+  </main>
+
+  <footer>© 2026 Watcharaporn Moonsap (maqmoq) · SpendNote</footer>
+
+<script>
+  function setLang(l){
+    document.body.className = 'lang-' + l;
+    document.documentElement.lang = l;
+    document.getElementById('btn-th').setAttribute('aria-pressed', l==='th');
+    document.getElementById('btn-en').setAttribute('aria-pressed', l==='en');
+  }
+</script>
+</body>
+</html>

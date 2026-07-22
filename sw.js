@@ -1,7 +1,10 @@
-const CACHE_NAME = "spendnote-pwa-0832508344b2";
+const CACHE_NAME = "spendnote-pwa-aed9140b7f83";
 const APP_SHELL = [
   "./",
   "./index.html",
+  "./privacy.html",
+  "./terms.html",
+  "./licenses.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",

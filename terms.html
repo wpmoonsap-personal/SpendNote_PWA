@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08a9bc">
+<title>SpendNote — ข้อกำหนดและสิทธิ์การใช้งาน / Terms &amp; License</title>
+<style>
+  :root{
+    --accent:#08a9bc; --accent-dark:#067d8b; --ink:#16292c; --muted:#5c6f72;
+    --line:#e0edee; --bg:#ffffff; --panel:#f5fbfc; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Thai","Helvetica Neue",Arial,sans-serif;
+    line-height:1.72; font-size:16.5px;
+  }
+  .bar{
+    position:sticky; top:0; z-index:10; background:rgba(255,255,255,.92);
+    backdrop-filter:saturate(1.2) blur(8px); border-bottom:1px solid var(--line);
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px clamp(16px,5vw,24px);
+  }
+  .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.2px}
+  .brand .dot{width:26px; height:26px; border-radius:8px; background:var(--accent);
+    display:grid; place-items:center; color:#fff; font-size:13px; font-weight:800}
+  .toggle{display:inline-flex; border:1px solid var(--line); border-radius:999px; overflow:hidden}
+  .toggle button{appearance:none; border:0; background:transparent; color:var(--muted);
+    padding:7px 14px; font-size:13.5px; font-weight:700; cursor:pointer}
+  .toggle button[aria-pressed="true"]{background:var(--accent); color:#fff}
+  .toggle button:focus-visible{outline:2px solid var(--accent-dark); outline-offset:2px}
+  main{max-width:720px; margin:0 auto; padding:clamp(24px,6vw,48px) clamp(16px,5vw,24px) 96px}
+  .eyebrow{font-size:12.5px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-dark)}
+  h1{font-size:clamp(26px,6vw,34px); line-height:1.2; margin:.35em 0 .15em; letter-spacing:-.01em}
+  .meta{color:var(--muted); font-size:14px; margin:0 0 28px; padding-bottom:20px; border-bottom:1px solid var(--line)}
+  .meta b{color:var(--ink)}
+  h2{font-size:19px; margin:34px 0 8px; padding-left:44px; position:relative; letter-spacing:-.005em; min-height:1.4em}
+  h2 .n{position:absolute; left:0; top:0; width:30px; height:30px; border-radius:9px;
+    background:var(--panel); border:1px solid var(--line); color:var(--accent-dark);
+    display:grid; place-items:center; font-size:13px; font-weight:800}
+  p{margin:.5em 0}
+  ul{margin:.5em 0; padding-left:1.25em}
+  strong{color:var(--ink)}
+  a{color:var(--accent-dark)}
+  .callout{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px; margin:16px 0}
+  .callout p{margin:.25em 0}
+  footer{max-width:720px; margin:0 auto; padding:0 clamp(16px,5vw,24px) 60px; color:var(--muted); font-size:13.5px}
+  [data-lang]{display:none}
+  body.lang-th [data-lang="th"]{display:block}
+  body.lang-en [data-lang="en"]{display:block}
+  @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body class="lang-th">
+  <div class="bar">
+    <div class="brand"><span class="dot">SN</span> SpendNote</div>
+    <div class="toggle" role="group" aria-label="Language">
+      <button id="btn-th" aria-pressed="true" onclick="setLang('th')">TH</button>
+      <button id="btn-en" aria-pressed="false" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ THAI ============ -->
+    <div data-lang="th">
+      <div class="eyebrow">SpendNote</div>
+      <h1>ข้อกำหนดและสิทธิ์การใช้งาน</h1>
+      <p class="meta">ปรับปรุงล่าสุด: <b>22 กรกฎาคม 2026</b> · ผู้พัฒนา: <b>Watcharaporn Moonsap (maqmoq)</b> · กฎหมายที่ใช้บังคับ: <b>ประเทศไทย</b></p>
+      <p>การใช้ SpendNote ถือว่าคุณยอมรับข้อกำหนดนี้</p>
+
+      <h2><span class="n">1</span>สิทธิ์การใช้งาน (License)</h2>
+      <p>© 2026 Watcharaporn Moonsap (maqmoq) — สงวนลิขสิทธิ์</p>
+      <p>อนุญาตให้ใช้แอพ <strong>ฟรี</strong> สำหรับการใช้งานส่วนบุคคล การศึกษา และการใช้งานภายในธุรกิจของตนเองเท่านั้น <strong>ห้าม</strong> ขายต่อ ให้เช่า แจกจ่ายเพื่อแสวงหากำไร ให้บริการเชิงพาณิชย์ หรือนำเวอร์ชันดัดแปลงไปจำหน่าย โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจากเจ้าของ</p>
+
+      <h2><span class="n">2</span>การนำขึ้นสโตร์และการเผยแพร่</h2>
+      <p>เฉพาะเจ้าของ (Watcharaporn Moonsap) เท่านั้นที่มีสิทธิ์นำแอพขึ้นเผยแพร่บน App Store, Google Play หรือแพลตฟอร์มอื่นในนามผู้พัฒนา บุคคลอื่น <strong>ห้าม</strong> อัปโหลด ส่งขึ้นสโตร์ หรือเผยแพร่แอพนี้ (ทั้งฉบับต้นและฉบับดัดแปลง) ในนามตนเอง โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร</p>
+
+      <h2><span class="n">3</span>ให้บริการ “ตามสภาพ” (As-Is)</h2>
+      <p>แอพให้บริการ “ตามสภาพที่เป็นอยู่” และ “เท่าที่มีให้ใช้” โดยไม่มีการรับประกันใดๆ ทั้งโดยชัดแจ้งและโดยปริยาย รวมถึงความถูกต้อง ความต่อเนื่อง หรือความเหมาะสมกับวัตถุประสงค์เฉพาะ</p>
+
+      <h2><span class="n">4</span>ไม่ใช่คำแนะนำทางการเงิน</h2>
+      <p>ตัวเลข กราฟ การคำนวณกำไร/ขาดทุน มูลค่าพอร์ต ผลลัพธ์จากการสแกนใบเสร็จ และอัตราแลกเปลี่ยน มีไว้เพื่อการบันทึกส่วนตัวเท่านั้น <strong>ไม่ถือเป็นคำแนะนำทางการเงิน การลงทุน ภาษี หรือกฎหมาย</strong> โปรดตรวจสอบและตัดสินใจด้วยตนเองหรือปรึกษาผู้เชี่ยวชาญ</p>
+
+      <h2><span class="n">5</span>ความรับผิดชอบของผู้ใช้</h2>
+      <p>คุณรับผิดชอบความถูกต้องของข้อมูลที่กรอกเอง และการสำรอง/เก็บรักษาข้อมูลของคุณ</p>
+
+      <h2><span class="n">6</span>ข้อจำกัดความรับผิด</h2>
+      <p>เท่าที่กฎหมายอนุญาต ผู้พัฒนาจะไม่รับผิดต่อความเสียหายใดๆ ที่เกิดจากการใช้หรือไม่สามารถใช้แอพ รวมถึงการสูญหายของข้อมูล การตัดสินใจทางการเงิน หรือความคลาดเคลื่อนของการคำนวณ/การสแกน/อัตราแลกเปลี่ยน</p>
+
+      <h2><span class="n">7</span>ซอฟต์แวร์บุคคลที่สาม</h2>
+      <p>แอพใช้ซอฟต์แวร์โอเพนซอร์สภายใต้ใบอนุญาตของแต่ละราย ดูรายละเอียดที่หน้า <a href="licenses.html">ใบอนุญาตโอเพนซอร์ส</a></p>
+
+      <h2><span class="n">8</span>คำแปลหลายภาษา</h2>
+      <div class="callout"><p>คำแปลจัดทำโดย AI เพื่ออำนวยความสะดวก หากมีข้อความขัดแย้งกัน ให้ยึด <strong>ฉบับภาษาไทย</strong> เป็นหลัก</p></div>
+
+      <h2><span class="n">9</span>กฎหมายที่ใช้บังคับ</h2>
+      <p>ข้อกำหนดนี้อยู่ภายใต้กฎหมายของประเทศไทย · ติดต่อ: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a></p>
+    </div>
+
+    <!-- ============ ENGLISH ============ -->
+    <div data-lang="en">
+      <div class="eyebrow">SpendNote</div>
+      <h1>Terms &amp; License</h1>
+      <p class="meta">Last updated: <b>22 July 2026</b> · Developer: <b>Watcharaporn Moonsap (maqmoq)</b> · Governing law: <b>Thailand</b></p>
+      <p>By using SpendNote you agree to these Terms.</p>
+
+      <h2><span class="n">1</span>License</h2>
+      <p>© 2026 Watcharaporn Moonsap (maqmoq). All rights reserved.</p>
+      <p>Free for personal, educational, and your own internal business use only. You may <strong>not</strong> resell, rent, distribute for profit, provide as a commercial service, or sell modified versions without the owner's prior written permission.</p>
+
+      <h2><span class="n">2</span>Store publishing &amp; distribution</h2>
+      <p>Only the owner (Watcharaporn Moonsap) may publish the App to the App Store, Google Play, or other platforms under a developer account. Others may <strong>not</strong> upload, submit, or publish this App (original or modified) under their own name without prior written permission.</p>
+
+      <h2><span class="n">3</span>As-Is</h2>
+      <p>Provided “as-is” and “as-available” without warranties of any kind, express or implied, including accuracy, availability, or fitness for a particular purpose.</p>
+
+      <h2><span class="n">4</span>Not financial advice</h2>
+      <p>Figures, charts, profit/loss calculations, portfolio values, receipt-scan results, and exchange rates are for personal record-keeping only and do <strong>not</strong> constitute financial, investment, tax, or legal advice.</p>
+
+      <h2><span class="n">5</span>User responsibility</h2>
+      <p>You are responsible for the accuracy of data you enter and for backing up and safeguarding it.</p>
+
+      <h2><span class="n">6</span>Limitation of liability</h2>
+      <p>To the extent permitted by law, the developer is not liable for any damages from use or inability to use the App, including data loss, financial decisions, or calculation/scan/exchange-rate inaccuracies.</p>
+
+      <h2><span class="n">7</span>Third-party software</h2>
+      <p>The App uses open-source software under their respective licenses. See <a href="licenses.html">Open Source Licenses</a>.</p>
+
+      <h2><span class="n">8</span>Translations</h2>
+      <div class="callout"><p>Translations are AI-generated for convenience; in case of conflict, the <strong>Thai version prevails</strong>.</p></div>
+
+      <h2><span class="n">9</span>Governing law</h2>
+      <p>Governed by the laws of Thailand. Contact: <a href="mailto:wp.moonsap@gmail.com">wp.moonsap@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>© 2026 Watcharaporn Moonsap (maqmoq) · SpendNote</footer>
+
+<script>
+  function setLang(l){
+    document.body.className = 'lang-' + l;
+    document.documentElement.lang = l;
+    document.getElementById('btn-th').setAttribute('aria-pressed', l==='th');
+    document.getElementById('btn-en').setAttribute('aria-pressed', l==='en');
+  }
+</script>
+</body>
+</html>

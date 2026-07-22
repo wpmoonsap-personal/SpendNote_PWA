@@ -1,6 +1,7 @@
 SpendNote Internal Use and Restricted Commercialization License
 
-Copyright (c) 2026 maqmoq. All rights reserved.
+Copyright (c) 2026 Watcharaporn Moonsap (maqmoq). All rights reserved.
+Contact: wp.moonsap@gmail.com
 
 This software is proprietary and source-available only under the limited terms
 below. This is not an open-source license. All rights not expressly granted are
@@ -29,6 +30,12 @@ Without prior written permission from the copyright owner, you may not:
   white-label, template, or resale services;
 - remove or obscure copyright, license, attribution, or ownership notices.
 
+Store publishing and distribution:
+Only the copyright owner may publish SpendNote to the App Store, Google Play,
+or other platforms under a developer account. Others may not upload, submit,
+or publish this software, original or modified, under their own name without
+prior written permission from the copyright owner.
+
 No automatic commercial permission:
 There is no automatic commercial-permission channel. Any exception to the
 prohibited uses above is valid only if granted in a written document directly
@@ -38,6 +45,12 @@ No other rights:
 No trademark, branding, patent, distribution, resale, sublicensing, or commercial
 rights are granted except by separate written permission from the copyright
 owner.
+
+Third-party software:
+This project uses third-party libraries, tools, fonts, and services under their
+own licenses or terms. Those third-party licenses apply only to the respective
+third-party components and do not change this SpendNote license. See
+THIRD_PARTY_NOTICES.md and bundled third-party license files for details.
 
 User responsibility:
 You are responsible for reviewing and verifying all data, amounts, categories,
@@ -81,9 +94,19 @@ Thai summary:
 ไฟล์ติดตั้ง หรือทรัพยากรประกอบของโครงการไปใช้เพื่อขายต่อหรือแสวงหากำไร โดยไม่ได้
 รับอนุญาตเป็นลายลักษณ์อักษรจากเจ้าของลิขสิทธิ์ก่อน
 
+เฉพาะเจ้าของลิขสิทธิ์เท่านั้นที่มีสิทธิ์นำ SpendNote ขึ้นเผยแพร่บน App Store,
+Google Play หรือแพลตฟอร์มอื่นในนามผู้พัฒนา บุคคลอื่นห้ามอัปโหลด ส่งขึ้นสโตร์
+หรือเผยแพร่ซอฟต์แวร์นี้ ทั้งฉบับต้นและฉบับดัดแปลง ในนามตนเองโดยไม่ได้รับอนุญาต
+เป็นลายลักษณ์อักษรจากเจ้าของลิขสิทธิ์
+
 สิทธิ์ทั้งหมดที่ไม่ได้ระบุให้ไว้อย่างชัดแจ้งถือว่าสงวนไว้ทั้งหมด
 ไม่มีช่องทางอนุญาตเชิงพาณิชย์แบบอัตโนมัติ การยกเว้นใดๆ จะมีผลเฉพาะเมื่อได้รับ
 เอกสารอนุญาตเป็นลายลักษณ์อักษรจากเจ้าของลิขสิทธิ์โดยตรงเท่านั้น
+
+โปรเจกต์นี้ใช้ไลบรารี เครื่องมือ ฟอนต์ และบริการภายนอกบางส่วนภายใต้ใบอนุญาตหรือ
+เงื่อนไขของแต่ละราย ใบอนุญาตเหล่านั้นใช้กับส่วนประกอบภายนอกนั้นๆ เท่านั้น และไม่
+เปลี่ยนใบอนุญาตของ SpendNote ดูรายละเอียดได้ใน THIRD_PARTY_NOTICES.md และไฟล์
+ใบอนุญาตของบุคคลที่สามที่แนบไว้ในโปรเจกต์
 
 ผู้ใช้ต้องตรวจสอบข้อมูล จำนวนเงิน หมวดหมู่ อัตราแลกเปลี่ยน ผลคำนวณ รายงาน
 ไฟล์ PDF/CSV ข้อมูล OCR จากใบเสร็จ มูลค่าพอร์ต การสำรองข้อมูล และการตัดสินใจ
