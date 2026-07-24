@@ -1,4 +1,4 @@
-const CACHE_NAME = "spendnote-pwa-2e84f2a5377a";
+const CACHE_NAME = "spendnote-pwa-06d58ca7dde6";
 const APP_SHELL = [
   "./",
   "./index.html",
